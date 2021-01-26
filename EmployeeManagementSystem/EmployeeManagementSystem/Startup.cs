@@ -35,6 +35,17 @@ namespace EmployeeManagementSystem
             services.AddMediatR(Assembly.GetExecutingAssembly());
             services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidatonBehavior<,>));
             services.AddValidatorsFromAssembly(typeof(Startup).Assembly);
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy",
+                    builder =>
+                    {
+                        builder.WithOrigins("http://localhost:3000",
+                                            "http://localhost:3001")
+                                            .AllowAnyHeader()
+                                            .AllowAnyMethod();
+                    });                
+            });
             services.AddControllers();
         }
 
@@ -49,7 +60,7 @@ namespace EmployeeManagementSystem
             app.UseHttpsRedirection();
 
             app.UseRouting();
-
+            app.UseCors("CorsPolicy");
             app.UseAuthorization();
             #region Swagger
             app.UseSwagger();

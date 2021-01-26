@@ -70,3 +70,6 @@ C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\o
 C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.pdb
 C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.genruntimeconfig.cache
 C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\netcoreapp3.1\ReactClient\employee-app\package-lock.json
+C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\netcoreapp3.1\ReactClient\employee-app\package.json
+C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\netcoreapp3.1\ReactClient\employee-app\public\manifest.json
