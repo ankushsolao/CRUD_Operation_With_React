@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { TextField, Button, FormControl, Grid } from "@material-ui/core";
 
 const EditEmployee = props => {
     const [employee, setEmployee] = useState(props.currentEmployee);
@@ -16,61 +17,54 @@ const EditEmployee = props => {
         setEmployee({ ...employee, [name]: value })
     }
 
-    return (
-        <form
-            onSubmit={event => {
-                event.preventDefault()
+    const updateEmployeHandler = () => {
+        props.updateEmployee(employee.id, employee)
+    }
 
-                props.updateEmployee(employee.id, employee)
-            }}
-        >
-            <label>First Name</label>
-            <input
-                type="text"
-                name="firstName"
-                value={employee.firstName}
-                onChange={handleInputChange}
-            />
-            <label>Last Name</label>
-            <input
-                type="text"
-                name="lastName"
-                value={employee.lastName}
-                onChange={handleInputChange}
-            />
-            <label>Mobile Number</label>
-            <input
-                type="text"
-                name="mobileNumber"
-                value={employee.mobileNumber}
-                onChange={handleInputChange}
-            />
-            <label>Email Id</label>
-            <input
-                type="text"
-                name="emailId"
-                value={employee.emailId}
-                onChange={handleInputChange}
-            />
-            <label>Current Address</label>
-            <input
-                type="text"
-                name="currentAddress"
-                value={employee.currentAddress}
-                onChange={handleInputChange}
-            />
-            <label>Current CTC</label>
-            <input
-                type="text"
-                name="ctc"
-                value={employee.ctc}
-                onChange={handleInputChange}
-            />
-            <button>Update Employee</button>
-            <button onClick={() => props.setEditing(false)} className="button muted-button">
-                Cancel
-      </button>
-        </form>
+    return (
+
+        <FormControl >
+
+            <Grid container spacing={3}>
+                <Grid item xs={12} sm={4}>
+                    <TextField id="standard-basic" label="First Name" name="firstName"
+                        value={employee.firstName}
+                        onChange={handleInputChange} />
+                </Grid>
+                <Grid item xs={12} sm={4}>
+                    <TextField id="standard-basic" label="Last Name" name="lastName"
+                        value={employee.lastName}
+                        onChange={handleInputChange} />
+                </Grid>
+                <Grid item xs={12} sm={4}>
+                    <TextField id="standard-basic" label="Mobile Number" name="mobileNumber"
+                        value={employee.mobileNumber}
+                        onChange={handleInputChange} />
+                </Grid>
+                <Grid item xs={12} sm={4}>
+                    <TextField id="standard-basic" label="Email Id" name="emailId"
+                        value={employee.emailId}
+                        onChange={handleInputChange} />
+                </Grid>
+                <Grid item xs={12} sm={4}>
+                    <TextField id="standard-basic" label="Current Address" name="currentAddress"
+                        value={employee.currentAddress}
+                        onChange={handleInputChange} />
+                </Grid>
+                <Grid item xs={12} sm={4}>
+                    <TextField id="standard-basic" label="Current CTC" name="ctc"
+                        value={employee.ctc}
+                        onChange={handleInputChange} />
+                </Grid>
+                <Grid item xs={12} sm={6}>
+                    <Button variant="contained" color="primary" onClick={updateEmployeHandler}>Update Employee</Button>
+                </Grid>
+                <Grid item xs={12} sm={6}>
+                    <Button variant="contained" color="primary" onClick={() => props.setEditing(false)}>Cancel</Button>
+
+                </Grid>
+            </Grid>
+        </FormControl >
     )
 }
 
