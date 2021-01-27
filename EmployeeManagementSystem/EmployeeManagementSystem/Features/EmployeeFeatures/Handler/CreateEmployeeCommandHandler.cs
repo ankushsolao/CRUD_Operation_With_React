@@ -22,10 +22,14 @@ namespace EmployeeManagementSystem.Features.EmployeeFeatures.Handler
             var employee = new Employee();
             employee.FirstName = command.FirstName;
             employee.LastName = command.LastName;
-            employee.EmailId = command.EmailId;
+            employee.Designation = command.Designation;
             employee.MobileNumber = command.MobileNumber;
-            employee.CurrentAddress = command.CurrentAddress;
-            employee.CTC = command.CTC;
+            employee.Email = command.Email;
+            employee.Department = command.Department;
+            employee.Address = command.Address;
+            employee.City = command.City;
+            employee.CreateDate = System.DateTime.Now;
+            
             _context.Employee.Add(employee);
             await _context.SaveChanges();
             return employee.Id;

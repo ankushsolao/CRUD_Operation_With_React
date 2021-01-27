@@ -26,10 +26,13 @@ namespace EmployeeManagementSystem.Features.EmployeeFeatures.Handler
             {
                 employee.FirstName = command.FirstName;
                 employee.LastName = command.LastName;
-                employee.EmailId = command.EmailId;
+                employee.Designation = command.Designation;
                 employee.MobileNumber = command.MobileNumber;
-                employee.CurrentAddress = command.CurrentAddress;
-                employee.CTC = command.CTC;
+                employee.Email = command.Email;
+                employee.Department = command.Department;
+                employee.Address = command.Address;
+                employee.City = command.City;
+                employee.UpdateDate = System.DateTime.Now;
                 await _context.SaveChanges();
                 return employee.Id;
             }

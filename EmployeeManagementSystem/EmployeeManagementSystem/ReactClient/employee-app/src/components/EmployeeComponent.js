@@ -18,21 +18,23 @@ const EmployeeComponent = () => {
         id: null,
         firstName: '',
         lastName: '',
+        designation: '',
         mobileNumber: '',
-        emailId: '',
-        currentAddress: '',
-        ctc: 0
+        email: '',
+        department: '',
+        address: '',
+        city: ''
     }
     const handleClick = () => {
         setOpen(true);
-      };
-      const handleClose = (event, reason) => {
+    };
+    const handleClose = (event, reason) => {
         if (reason === 'clickaway') {
-          return;
+            return;
         }
-    
+
         setOpen(false);
-      };
+    };
     // Data
     useEffect(() => {
         getEmployeeData();
@@ -116,7 +118,7 @@ const EmployeeComponent = () => {
             <div className="flex-large">
                 {editing ? (
                     <Fragment>
-                        <h2>Edit Employee</h2>
+                        <h2>Edit Employee Information</h2>
                         <EditEmployee
                             editing={editing}
                             setEditing={setEditing}
@@ -126,7 +128,7 @@ const EmployeeComponent = () => {
                     </Fragment>
                 ) : (
                         <Fragment>
-                            <h2>Add Employee</h2>
+                            <h2>Add Employee Information</h2>
                             <AddEmployee addEmployee={addEmployee} />
                         </Fragment>
                     )}
@@ -136,10 +138,10 @@ const EmployeeComponent = () => {
                 <EmployeeTable employees={employees} editRow={editRow} deleteEmployee={deleteEmployee} />
             </div>
             <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
-        <Alert onClose={handleClose} severity="success">
-          {msg}
-        </Alert>
-      </Snackbar>
+                <Alert onClose={handleClose} severity="success">
+                    {msg}
+                </Alert>
+            </Snackbar>
         </div>
     )
 }

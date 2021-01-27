@@ -1,12 +1,9 @@
-C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.AssemblyInfoInputs.cache
-C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.AssemblyInfo.cs
-C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.csproj.CoreCompileInputs.cache
-C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.MvcApplicationPartsAssemblyInfo.cs
-C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.MvcApplicationPartsAssemblyInfo.cache
-C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.csprojAssemblyReference.cache
 C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\netcoreapp3.1\appsettings.json
 C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\netcoreapp3.1\ReactClient\employee-app\package-lock.json
+C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\netcoreapp3.1\ReactClient\employee-app\package.json
+C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\netcoreapp3.1\ReactClient\employee-app\public\manifest.json
 C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\netcoreapp3.1\EmployeeManagementSystem.exe
 C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\netcoreapp3.1\EmployeeManagementSystem.deps.json
 C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\netcoreapp3.1\EmployeeManagementSystem.runtimeconfig.json
@@ -15,6 +12,7 @@ C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\b
 C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\netcoreapp3.1\EmployeeManagementSystem.pdb
 C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\netcoreapp3.1\FluentValidation.dll
 C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\netcoreapp3.1\Humanizer.dll
 C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\netcoreapp3.1\MediatR.dll
 C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
 C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
@@ -62,6 +60,11 @@ C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\b
 C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.AssemblyInfoInputs.cache
+C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.AssemblyInfo.cs
+C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.csproj.CoreCompileInputs.cache
+C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.MvcApplicationPartsAssemblyInfo.cs
+C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.MvcApplicationPartsAssemblyInfo.cache
 C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.RazorTargetAssemblyInfo.cache
 C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.csproj.CopyComplete
 C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\netcoreapp3.1\staticwebassets\EmployeeManagementSystem.StaticWebAssets.Manifest.cache
@@ -69,7 +72,3 @@ C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\o
 C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.dll
 C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.pdb
 C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.genruntimeconfig.cache
-C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\netcoreapp3.1\Humanizer.dll
-C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\netcoreapp3.1\ReactClient\employee-app\package-lock.json
-C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\netcoreapp3.1\ReactClient\employee-app\package.json
-C:\github project\Assignment\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\netcoreapp3.1\ReactClient\employee-app\public\manifest.json

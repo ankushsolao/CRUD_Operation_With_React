@@ -9,13 +9,10 @@ const getEmployeeById = id => {
 };
 
 const createEmployee = data => {
-    data.ctc = parseInt(data.ctc);
-    console.log("data", data);
     return http.post("/Employee", data);
 };
 
 const updateEmployee = (id, data) => {
-    data.ctc = parseInt(data.ctc);  
     return http.put(`/Employee/${id}`, data);
 };
 

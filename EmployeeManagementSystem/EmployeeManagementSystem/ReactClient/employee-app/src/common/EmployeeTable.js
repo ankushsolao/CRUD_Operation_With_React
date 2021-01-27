@@ -16,10 +16,12 @@ const EmployeeTable = (props) => (
           <TableCell>Sr. No</TableCell>
           <TableCell align="right">First Name</TableCell>
           <TableCell align="right">Last Name)</TableCell>
+          <TableCell align="right">Designation</TableCell>
           <TableCell align="right">Mobile Number</TableCell>
-          <TableCell align="right">Email Id</TableCell>
-          <TableCell align="right">Current Address</TableCell>
-          <TableCell align="right">Current CTC</TableCell>
+          <TableCell align="right">Email</TableCell>
+          <TableCell align="right">Department</TableCell>
+          <TableCell align="right">Address</TableCell>
+          <TableCell align="right">City</TableCell>
           <TableCell align="right">Actions</TableCell>
         </TableRow>
       </TableHead>
@@ -32,10 +34,12 @@ const EmployeeTable = (props) => (
               </TableCell>
               <TableCell align="right">{employees.firstName}</TableCell>
               <TableCell align="right">{employees.lastName}</TableCell>
+              <TableCell align="right">{employees.designation}</TableCell>
               <TableCell align="right">{employees.mobileNumber}</TableCell>
-              <TableCell align="right">{employees.emailId}</TableCell>
-              <TableCell align="right">{employees.currentAddress}</TableCell>
-              <TableCell align="right">{employees.ctc}</TableCell>
+              <TableCell align="right">{employees.email}</TableCell>
+              <TableCell align="right">{employees.department}</TableCell>
+              <TableCell align="right">{employees.address}</TableCell>
+              <TableCell align="right">{employees.city}</TableCell>
               <TableCell align="right">
                 <Button variant="contained" color="primary" onClick={() => {
                   props.editRow(employees)

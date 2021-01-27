@@ -5,10 +5,12 @@ const AddEmployee = (props) => {
     id: null,
     firstName: '',
     lastName: '',
+    designation: '',
     mobileNumber: '',
-    emailId: '',
-    currentAddress: '',
-    ctc: 0
+    email: '',
+    department: '',
+    address: '',
+    city: ''
   }
   const [employee, setEmployee] = useState(initialFormState);
 
@@ -44,23 +46,33 @@ const AddEmployee = (props) => {
             onChange={handleInputChange} />
         </Grid>
         <Grid item xs={12} sm={4}>
+          <TextField id="standard-basic" label="Designation" name="designation"
+            value={employee.designation}
+            onChange={handleInputChange} />
+        </Grid>
+        <Grid item xs={12} sm={4}>
           <TextField id="standard-basic" label="Mobile Number" name="mobileNumber" type="number"
             value={employee.mobileNumber}
             onChange={handleInputChange} />
         </Grid>
         <Grid item xs={12} sm={4}>
-          <TextField id="standard-basic" label="Email Id" name="emailId"
-            value={employee.emailId}
+          <TextField id="standard-basic" label="Email" name="email"
+            value={employee.email}
             onChange={handleInputChange} />
         </Grid>
         <Grid item xs={12} sm={4}>
-        <TextField id="standard-basic" label="Current Address" name="currentAddress"
-          value={employee.currentAddress}
+          <TextField id="standard-basic" label="Department" name="department"
+            value={employee.department}
+            onChange={handleInputChange} />
+        </Grid>
+        <Grid item xs={12} sm={4}>
+        <TextField id="standard-basic" label="Address" name="address"
+          value={employee.address}
           onChange={handleInputChange} />
       </Grid>
       <Grid item xs={12} sm={4}>
-        <TextField id="standard-basic" label="Current CTC" name="ctc" type="number"
-          value={employee.ctc}
+        <TextField id="standard-basic" label="City" name="city" 
+          value={employee.city}
           onChange={handleInputChange} />
       </Grid>
       <Grid item xs={12}>
